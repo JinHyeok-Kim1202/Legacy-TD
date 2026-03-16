@@ -1,0 +1,22 @@
+# Godot
+game-client/godot/.godot/
+game-client/godot/debug_logs/
+*.import
+
+# Node / tooling
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local settings / caches
+*.tmp
+*.log
+*.user
+.omx/

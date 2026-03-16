@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/enemy.schema.json",
+  "title": "Enemy Catalog",
+  "type": "object",
+  "required": ["enemies"],
+  "properties": {
+    "enemies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "display_name", "type", "movement", "combat", "reward", "presentation", "tags"],
+        "properties": {
+          "id": { "type": "string" },
+          "display_name": { "type": "string" },
+          "type": { "type": "string" },
+          "movement": {
+            "type": "object",
+            "required": ["path_id", "move_speed"],
+            "properties": {
+              "path_id": { "type": "string" },
+              "move_speed": { "type": "number", "minimum": 0 }
+            },
+            "additionalProperties": false
+          },
+          "combat": {
+            "type": "object",
+            "required": ["max_hp", "armor", "magic_resist"],
+            "properties": {
+              "max_hp": { "type": "number", "minimum": 1 },
+              "armor": { "type": "number", "minimum": 0 },
+              "magic_resist": { "type": "number", "minimum": 0 }
+            },
+            "additionalProperties": false
+          },
+          "reward": {
+            "type": "object",
+            "required": ["gold"],
+            "properties": {
+              "gold": { "type": "number", "minimum": 0 }
+            },
+            "additionalProperties": false
+          },
+          "presentation": {
+            "type": "object",
+            "required": ["model_id"],
+            "properties": {
+              "model_id": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

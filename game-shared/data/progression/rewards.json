@@ -1,0 +1,9 @@
+{
+  "round_draw_rules": {
+    "base_common_draws_per_round": 2,
+    "bonus_draw_sources": ["boss_reward", "event_reward"]
+  },
+  "currencies": [
+    { "id": "gold", "display_name": "Gold" }
+  ]
+}

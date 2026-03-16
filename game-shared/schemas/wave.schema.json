@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/wave.schema.json",
+  "title": "Wave Catalog",
+  "type": "object",
+  "required": ["waves"],
+  "properties": {
+    "waves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["round", "entries", "boss_id"],
+        "properties": {
+          "round": { "type": "integer", "minimum": 1 },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["enemy_id", "count", "spawn_interval"],
+              "properties": {
+                "enemy_id": { "type": "string" },
+                "count": { "type": "integer", "minimum": 1 },
+                "spawn_interval": { "type": "number", "minimum": 0 }
+              },
+              "additionalProperties": false
+            }
+          },
+          "boss_id": {
+            "anyOf": [
+              { "type": "string" },
+              { "type": "null" }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

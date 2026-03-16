@@ -1,0 +1,508 @@
+[gd_scene load_steps=2 format=3 uid="uid://legacytdhud"]
+
+[ext_resource type="Script" path="res://scripts/ui/main_hud.gd" id="1_hud"]
+
+[node name="MainHud" type="CanvasLayer"]
+script = ExtResource("1_hud")
+
+[node name="TopCenterOverlay" type="Control" parent="."]
+anchors_preset = 10
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -260.0
+offset_top = 18.0
+offset_right = 260.0
+offset_bottom = 170.0
+grow_horizontal = 2
+
+[node name="OverlayVBox" type="VBoxContainer" parent="TopCenterOverlay"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+theme_override_constants/separation = 2
+
+[node name="CountdownCaptionLabel" type="Label" parent="TopCenterOverlay/OverlayVBox"]
+horizontal_alignment = 1
+text = "NEXT ROUND"
+
+[node name="CountdownValueLabel" type="Label" parent="TopCenterOverlay/OverlayVBox"]
+horizontal_alignment = 1
+text = "60"
+
+[node name="EnemyWarningLabel" type="Label" parent="TopCenterOverlay/OverlayVBox"]
+horizontal_alignment = 1
+text = "FIELD ENEMIES 0 / 0"
+
+[node name="BossWarningLabel" type="Label" parent="TopCenterOverlay/OverlayVBox"]
+horizontal_alignment = 1
+text = ""
+
+[node name="StatusPanel" type="PanelContainer" parent="."]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 430.0
+offset_bottom = 430.0
+
+[node name="MarginContainer" type="MarginContainer" parent="StatusPanel"]
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 14
+
+[node name="VBoxContainer" type="VBoxContainer" parent="StatusPanel/MarginContainer"]
+
+[node name="TitleLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Stage Control"
+
+[node name="RoundLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Round 1"
+
+[node name="TimerLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Next round in 60s"
+
+[node name="LeakLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Enemies 0 / 0"
+
+[node name="GoldLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Gold 0"
+
+[node name="EnemyLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Enemies 0 active | 0 queued"
+
+[node name="CombatLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Combat 0 attacks | 0 defeated | 0 round gold"
+
+[node name="StatusLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "Loading shared data..."
+
+[node name="SelectedLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Selected: none"
+
+[node name="StorageLabel" type="Label" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Storage 0"
+
+[node name="SpeedButtons" type="HBoxContainer" parent="StatusPanel/MarginContainer/VBoxContainer"]
+alignment = 1
+
+[node name="SpeedNormalButton" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer/SpeedButtons"]
+custom_minimum_size = Vector2(72, 34)
+text = "x1.0"
+
+[node name="Speed15Button" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer/SpeedButtons"]
+custom_minimum_size = Vector2(72, 34)
+text = "x1.5"
+
+[node name="Speed20Button" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer/SpeedButtons"]
+custom_minimum_size = Vector2(72, 34)
+text = "x2.0"
+
+[node name="MoveToStorageButton" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Move To Storage"
+
+[node name="StartRoundButton" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Start Round"
+
+[node name="RestartRunButton" type="Button" parent="StatusPanel/MarginContainer/VBoxContainer"]
+text = "Restart Run"
+
+[node name="StoryPanel" type="PanelContainer" parent="."]
+offset_left = 24.0
+offset_top = 456.0
+offset_right = 380.0
+offset_bottom = 752.0
+
+[node name="MarginContainer" type="MarginContainer" parent="StoryPanel"]
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="StoryPanel/MarginContainer"]
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="StoryPanel/MarginContainer/VBoxContainer"]
+text = "Story Boss"
+
+[node name="StageLabel" type="Label" parent="StoryPanel/MarginContainer/VBoxContainer"]
+text = "Stage 1"
+
+[node name="HpBar" type="ProgressBar" parent="StoryPanel/MarginContainer/VBoxContainer"]
+max_value = 100.0
+value = 100.0
+
+[node name="HpLabel" type="Label" parent="StoryPanel/MarginContainer/VBoxContainer"]
+horizontal_alignment = 1
+text = "100 / 100"
+
+[node name="StoryHelpLabel" type="Label" parent="StoryPanel/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "Select a storage unit, then click a story slot to assign up to 3 attackers."
+
+[node name="StorySlots" type="HBoxContainer" parent="StoryPanel/MarginContainer/VBoxContainer"]
+alignment = 1
+
+[node name="StorySlot1" type="Button" parent="StoryPanel/MarginContainer/VBoxContainer/StorySlots"]
+custom_minimum_size = Vector2(96, 104)
+text = "Empty"
+
+[node name="StorySlot2" type="Button" parent="StoryPanel/MarginContainer/VBoxContainer/StorySlots"]
+custom_minimum_size = Vector2(96, 104)
+text = "Empty"
+
+[node name="StorySlot3" type="Button" parent="StoryPanel/MarginContainer/VBoxContainer/StorySlots"]
+custom_minimum_size = Vector2(96, 104)
+text = "Empty"
+
+[node name="MissionPanel" type="PanelContainer" parent="."]
+offset_left = 1120.0
+offset_top = 24.0
+offset_right = 1576.0
+offset_bottom = 300.0
+
+[node name="MarginContainer" type="MarginContainer" parent="MissionPanel"]
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MissionPanel/MarginContainer"]
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="MissionPanel/MarginContainer/VBoxContainer"]
+text = "Mission Boss"
+
+[node name="MissionHelpLabel" type="Label" parent="MissionPanel/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "해금된 Mission Boss는 동시에 여러 마리 소환할 수 있습니다."
+
+[node name="MissionButtons" type="VBoxContainer" parent="MissionPanel/MarginContainer/VBoxContainer"]
+
+[node name="MergePanel" type="PanelContainer" parent="."]
+anchors_preset = 10
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -320.0
+offset_top = 630.0
+offset_right = 320.0
+offset_bottom = 786.0
+grow_horizontal = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MergePanel"]
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 14
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MergePanel/MarginContainer"]
+theme_override_constants/separation = 8
+
+[node name="UnitInfoPanel" type="PanelContainer" parent="MergePanel/MarginContainer/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 220)
+
+[node name="MarginContainer" type="MarginContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel"]
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer"]
+theme_override_constants/separation = 10
+
+[node name="UnitNameLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer"]
+horizontal_alignment = 1
+text = "선택 유닛"
+
+[node name="ContentRow" type="HBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer"]
+theme_override_constants/separation = 12
+
+[node name="IconPanel" type="PanelContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow"]
+custom_minimum_size = Vector2(110, 110)
+
+[node name="UnitIcon" type="TextureRect" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/IconPanel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 32.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="StatsGrid" type="GridContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow"]
+custom_minimum_size = Vector2(220, 110)
+columns = 2
+
+[node name="GradeLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "등급:"
+
+[node name="StrengthLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "힘:"
+
+[node name="DamageLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "피해:"
+
+[node name="AgilityLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "민첩:"
+
+[node name="AttackSpeedLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "공속:"
+
+[node name="IntelligenceLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/StatsGrid"]
+text = "지능:"
+
+[node name="RightColumn" type="VBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="RecipeSectionLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/RightColumn"]
+text = "조합"
+
+[node name="RecipeCards" type="HFlowContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/RightColumn"]
+size_flags_horizontal = 3
+
+[node name="SkillSectionLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/RightColumn"]
+text = "스킬"
+
+[node name="SkillPlaceholderLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitInfoPanel/MarginContainer/VBoxContainer/ContentRow/RightColumn"]
+autowrap_mode = 3
+text = "추후 추가 예정"
+
+[node name="UnitRecipeTooltip" type="PanelContainer" parent="MergePanel/MarginContainer/VBoxContainer"]
+visible = false
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 300.0
+offset_bottom = 120.0
+
+[node name="MarginContainer" type="MarginContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitRecipeTooltip"]
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitRecipeTooltip/MarginContainer"]
+theme_override_constants/separation = 6
+
+[node name="TooltipTextLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer/UnitRecipeTooltip/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "조합식"
+
+[node name="TooltipIcons" type="HFlowContainer" parent="MergePanel/MarginContainer/VBoxContainer/UnitRecipeTooltip/MarginContainer/VBoxContainer"]
+size_flags_horizontal = 3
+
+[node name="BottomTabs" type="HBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer"]
+alignment = 1
+
+[node name="ShopButton" type="Button" parent="MergePanel/MarginContainer/VBoxContainer/BottomTabs"]
+custom_minimum_size = Vector2(90, 36)
+text = "상점"
+
+[node name="MissionButton" type="Button" parent="MergePanel/MarginContainer/VBoxContainer/BottomTabs"]
+custom_minimum_size = Vector2(90, 36)
+text = "임무"
+
+[node name="RecipeButton" type="Button" parent="MergePanel/MarginContainer/VBoxContainer/BottomTabs"]
+custom_minimum_size = Vector2(90, 36)
+text = "도감"
+
+[node name="ForgeButton" type="Button" parent="MergePanel/MarginContainer/VBoxContainer/BottomTabs"]
+custom_minimum_size = Vector2(90, 36)
+text = "대장간"
+
+[node name="ContentTitleLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer"]
+horizontal_alignment = 1
+text = "Merge"
+
+[node name="ContentHintLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "Select a storage stack or placed unit to see available recipes."
+
+[node name="MergeOptions" type="VBoxContainer" parent="MergePanel/MarginContainer/VBoxContainer"]
+
+[node name="ShopContentLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer"]
+visible = false
+autowrap_mode = 3
+text = "상점 항목은 여기에 표시됩니다."
+
+[node name="QuestContentLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer"]
+visible = false
+autowrap_mode = 3
+text = "임무 항목은 여기에 표시됩니다."
+
+[node name="ForgeContentLabel" type="Label" parent="MergePanel/MarginContainer/VBoxContainer"]
+visible = false
+autowrap_mode = 3
+text = "대장간 항목은 여기에 표시됩니다."
+
+[node name="Sidebar" type="PanelContainer" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -480.0
+offset_top = 24.0
+offset_right = -24.0
+offset_bottom = 576.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Sidebar"]
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Sidebar/MarginContainer"]
+
+[node name="StorageTitleLabel" type="Label" parent="Sidebar/MarginContainer/VBoxContainer"]
+text = "Storage"
+
+[node name="StorageHelpLabel" type="Label" parent="Sidebar/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "Drawn units land here automatically. Click a stack to place one unit from it."
+
+[node name="StorageScroll" type="ScrollContainer" parent="Sidebar/MarginContainer/VBoxContainer"]
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="StorageGrid" type="GridContainer" parent="Sidebar/MarginContainer/VBoxContainer/StorageScroll"]
+size_flags_horizontal = 3
+columns = 4
+
+[node name="RecipeBrowserOverlay" type="Control" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Dim" type="ColorRect" parent="RecipeBrowserOverlay"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.78)
+
+[node name="CenterContainer" type="CenterContainer" parent="RecipeBrowserOverlay"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="RecipeBrowserOverlay/CenterContainer"]
+custom_minimum_size = Vector2(1080, 720)
+
+[node name="MarginContainer" type="MarginContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer"]
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="VBoxContainer" type="VBoxContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer"]
+theme_override_constants/separation = 10
+
+[node name="HeaderRow" type="HBoxContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+
+[node name="TitleLabel" type="Label" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/HeaderRow"]
+size_flags_horizontal = 3
+text = "조합식"
+
+[node name="CloseButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/HeaderRow"]
+custom_minimum_size = Vector2(90, 36)
+text = "닫기"
+
+[node name="RarityButtons" type="HBoxContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+alignment = 1
+
+[node name="AllButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(80, 34)
+text = "전체"
+
+[node name="RareButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(80, 34)
+text = "레어"
+
+[node name="UniqueButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(80, 34)
+text = "유니크"
+
+[node name="LegendaryButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(90, 34)
+text = "레전더리"
+
+[node name="TranscendentButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(90, 34)
+text = "초월자"
+
+[node name="ImmortalButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(90, 34)
+text = "불멸자"
+
+[node name="GodButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(80, 34)
+text = "신"
+
+[node name="LiberatorButton" type="Button" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RarityButtons"]
+custom_minimum_size = Vector2(90, 34)
+text = "해방자"
+
+[node name="HintLabel" type="Label" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+text = "등급을 선택하고 조합식을 누르면 하위 재료 단계로 이동합니다."
+
+[node name="RecipeScroll" type="ScrollContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="RecipeList" type="VBoxContainer" parent="RecipeBrowserOverlay/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/RecipeScroll"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="DifficultyPanel" type="PanelContainer" parent="."]
+offset_left = 560.0
+offset_top = 220.0
+offset_right = 1040.0
+offset_bottom = 560.0
+
+[node name="MarginContainer" type="MarginContainer" parent="DifficultyPanel"]
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DifficultyPanel/MarginContainer"]
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="DifficultyPanel/MarginContainer/VBoxContainer"]
+horizontal_alignment = 1
+text = "Select Difficulty"
+
+[node name="DescriptionLabel" type="Label" parent="DifficultyPanel/MarginContainer/VBoxContainer"]
+autowrap_mode = 3
+horizontal_alignment = 1
+text = "Enemies loop forever. If too many are alive at once, the run ends."
+
+[node name="DifficultyButtons" type="HBoxContainer" parent="DifficultyPanel/MarginContainer/VBoxContainer"]
+alignment = 1
+
+[node name="EasyButton" type="Button" parent="DifficultyPanel/MarginContainer/VBoxContainer/DifficultyButtons"]
+custom_minimum_size = Vector2(120, 52)
+text = "Easy"
+
+[node name="NormalButton" type="Button" parent="DifficultyPanel/MarginContainer/VBoxContainer/DifficultyButtons"]
+custom_minimum_size = Vector2(120, 52)
+text = "Normal"
+
+[node name="HardButton" type="Button" parent="DifficultyPanel/MarginContainer/VBoxContainer/DifficultyButtons"]
+custom_minimum_size = Vector2(120, 52)
+text = "Hard"

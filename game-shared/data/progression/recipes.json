@@ -1,0 +1,1835 @@
+{
+    "recipes":  [
+                    {
+                        "id":  "recipe_rare_male_student",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_child",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_male_student",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 남학생"
+                    },
+                    {
+                        "id":  "recipe_rare_female_student",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_child",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_female_student",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 여학생"
+                    },
+                    {
+                        "id":  "recipe_rare_office_worker",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_office_worker",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 직장인"
+                    },
+                    {
+                        "id":  "recipe_rare_farmer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_tree",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_farmer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 농부"
+                    },
+                    {
+                        "id":  "recipe_rare_fisherman",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_fish",
+                                           "count":  2
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_fisherman",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 어부"
+                    },
+                    {
+                        "id":  "recipe_rare_merchant",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_tree",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_merchant",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 상인"
+                    },
+                    {
+                        "id":  "recipe_rare_soldier",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_fire",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_soldier",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 군인"
+                    },
+                    {
+                        "id":  "recipe_rare_chef",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_fire",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_fish",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_chef",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 요리사"
+                    },
+                    {
+                        "id":  "recipe_rare_doctor",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_elder",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_doctor",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 의사"
+                    },
+                    {
+                        "id":  "recipe_rare_nurse",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_fire",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_child",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_nurse",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 간호사"
+                    },
+                    {
+                        "id":  "recipe_rare_teacher",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_elder",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_child",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_teacher",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 선생님"
+                    },
+                    {
+                        "id":  "recipe_rare_police_officer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_bird",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_police_officer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 경찰"
+                    },
+                    {
+                        "id":  "recipe_rare_explorer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_tree",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_bird",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_explorer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 탐험가"
+                    },
+                    {
+                        "id":  "recipe_rare_painter",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_fire",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_tree",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_painter",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 화가"
+                    },
+                    {
+                        "id":  "recipe_rare_writer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_elder",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_bird",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_writer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 작가"
+                    },
+                    {
+                        "id":  "recipe_rare_musician",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_woman",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_fire",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_bird",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_musician",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 음악가"
+                    },
+                    {
+                        "id":  "recipe_rare_inventor",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_tree",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_book",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_inventor",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 발명가"
+                    },
+                    {
+                        "id":  "recipe_rare_traveler",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "common_stone",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_man",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "common_bird",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "rare_traveler",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 여행가"
+                    },
+                    {
+                        "id":  "recipe_unique_singer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_writer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_painter",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_musician",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_singer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 가수"
+                    },
+                    {
+                        "id":  "recipe_unique_gamer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_inventor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_office_worker",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_musician",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_gamer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 게이머"
+                    },
+                    {
+                        "id":  "recipe_unique_researcher",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_inventor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_doctor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_researcher",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 연구원"
+                    },
+                    {
+                        "id":  "recipe_unique_athlete",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_soldier",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_explorer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_farmer",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_athlete",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 운동선수"
+                    },
+                    {
+                        "id":  "recipe_unique_programmer",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_writer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_inventor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_office_worker",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_programmer",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 프로그래머"
+                    },
+                    {
+                        "id":  "recipe_unique_philosopher",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_writer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_philosopher",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 철학자"
+                    },
+                    {
+                        "id":  "recipe_unique_general",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_soldier",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_general",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 장군"
+                    },
+                    {
+                        "id":  "recipe_unique_king",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_king",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 왕"
+                    },
+                    {
+                        "id":  "recipe_unique_wizard",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_traveler",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_inventor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_musician",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_wizard",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 마법사"
+                    },
+                    {
+                        "id":  "recipe_unique_knight",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_soldier",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_nurse",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_knight",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 기사"
+                    },
+                    {
+                        "id":  "recipe_unique_ninja",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_traveler",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_explorer",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_ninja",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 닌자"
+                    },
+                    {
+                        "id":  "recipe_unique_priest",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_doctor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_nurse",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_priest",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 사제"
+                    },
+                    {
+                        "id":  "recipe_unique_monk",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_traveler",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_farmer",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_monk",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 수도승"
+                    },
+                    {
+                        "id":  "recipe_unique_detective",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_doctor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_writer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_detective",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 탐정"
+                    },
+                    {
+                        "id":  "recipe_unique_revolutionary",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_soldier",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_writer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_revolutionary",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 혁명가"
+                    },
+                    {
+                        "id":  "recipe_unique_leader",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_doctor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_teacher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_leader",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 지도자"
+                    },
+                    {
+                        "id":  "recipe_unique_hero",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_soldier",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_nurse",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_explorer",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_hero",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 영웅"
+                    },
+                    {
+                        "id":  "recipe_unique_strategist",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "rare_inventor",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_police_officer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "rare_merchant",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "unique_strategist",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 전략가"
+                    },
+                    {
+                        "id":  "recipe_legendary_freddie_mercury",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_freddie_mercury",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 프레디 머큐리"
+                    },
+                    {
+                        "id":  "recipe_legendary_muhammad_ali",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_revolutionary",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_athlete",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_muhammad_ali",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 무하마드 알리"
+                    },
+                    {
+                        "id":  "recipe_legendary_michael_jordan",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_athlete",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_michael_jordan",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 마이클 조던"
+                    },
+                    {
+                        "id":  "recipe_legendary_albert_einstein",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_programmer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_researcher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_albert_einstein",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 알베르트 아인슈타인"
+                    },
+                    {
+                        "id":  "recipe_legendary_leonardo_da_vinci",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_programmer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_researcher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_leonardo_da_vinci",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 레오나르도 다빈치"
+                    },
+                    {
+                        "id":  "recipe_legendary_napoleon_bonaparte",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_general",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_revolutionary",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_napoleon_bonaparte",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 나폴레옹"
+                    },
+                    {
+                        "id":  "recipe_legendary_julius_caesar",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_general",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_knight",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_julius_caesar",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 율리우스 카이사르"
+                    },
+                    {
+                        "id":  "recipe_legendary_william_shakespeare",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_detective",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_william_shakespeare",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 윌리엄 셰익스피어"
+                    },
+                    {
+                        "id":  "recipe_legendary_bruce_lee",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_ninja",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_athlete",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_monk",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_bruce_lee",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 이소룡"
+                    },
+                    {
+                        "id":  "recipe_legendary_nikola_tesla",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_programmer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_researcher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_nikola_tesla",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 니콜라 테슬라"
+                    },
+                    {
+                        "id":  "recipe_legendary_pablo_picasso",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_detective",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_pablo_picasso",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 파블로 피카소"
+                    },
+                    {
+                        "id":  "recipe_legendary_elvis_presley",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_elvis_presley",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 엘비스 프레슬리"
+                    },
+                    {
+                        "id":  "recipe_legendary_alexander_the_great",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_general",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_alexander_the_great",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 알렉산더 대왕"
+                    },
+                    {
+                        "id":  "recipe_legendary_joan_of_arc",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_revolutionary",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_priest",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_knight",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_hero",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_joan_of_arc",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 잔다르크"
+                    },
+                    {
+                        "id":  "recipe_legendary_sun_tzu",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_general",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_sun_tzu",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 손자"
+                    },
+                    {
+                        "id":  "recipe_legendary_genghis_khan",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_revolutionary",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_general",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_knight",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_genghis_khan",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 징기스칸"
+                    },
+                    {
+                        "id":  "recipe_legendary_qin_shi_huang",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_revolutionary",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_qin_shi_huang",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 진시황"
+                    },
+                    {
+                        "id":  "recipe_legendary_sherlock_holmes",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_detective",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_strategist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_programmer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_sherlock_holmes",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 셜록 홈즈"
+                    },
+                    {
+                        "id":  "recipe_legendary_ludwig_van_beethoven",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_priest",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_monk",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_ludwig_van_beethoven",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 루트비히 판 베토벤"
+                    },
+                    {
+                        "id":  "recipe_legendary_wolfgang_amadeus_mozart",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_wolfgang_amadeus_mozart",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 볼프강 아마데우스 모차르트"
+                    },
+                    {
+                        "id":  "recipe_legendary_johann_sebastian_bach",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_priest",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_singer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_monk",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_johann_sebastian_bach",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 요한 세바스티안 바흐"
+                    },
+                    {
+                        "id":  "recipe_legendary_isaac_newton",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_programmer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_researcher",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_philosopher",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_isaac_newton",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 아이작 뉴턴"
+                    },
+                    {
+                        "id":  "recipe_legendary_cleopatra",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "unique_priest",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_wizard",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_king",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "unique_leader",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "legendary_cleopatra",
+                        "consume_inputs":  true,
+                        "branch_type":  "standard",
+                        "notes":  "Generated from unit.txt for 클레오파트라"
+                    },
+                    {
+                        "id":  "recipe_transcendent_laozi",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sherlock_holmes",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sun_tzu",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_laozi",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 노자"
+                    },
+                    {
+                        "id":  "recipe_transcendent_confucius",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_cleopatra",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_julius_caesar",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_confucius",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 공자"
+                    },
+                    {
+                        "id":  "recipe_transcendent_socrates",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_sherlock_holmes",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_albert_einstein",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_socrates",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 소크라테스"
+                    },
+                    {
+                        "id":  "recipe_transcendent_plato",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_cleopatra",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_leonardo_da_vinci",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_plato",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 플라톤"
+                    },
+                    {
+                        "id":  "recipe_transcendent_aristotle",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_alexander_the_great",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_albert_einstein",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_aristotle",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 아리스토텔레스"
+                    },
+                    {
+                        "id":  "recipe_transcendent_milarepa",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_ludwig_van_beethoven",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_milarepa",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 밀라레파"
+                    },
+                    {
+                        "id":  "recipe_transcendent_faker",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_nikola_tesla",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sun_tzu",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_michael_jordan",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "transcendent_faker",
+                        "consume_inputs":  true,
+                        "branch_type":  "transcendent",
+                        "notes":  "Generated from unit.txt for 페이커"
+                    },
+                    {
+                        "id":  "recipe_immortal_mahatma_gandhi",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_ludwig_van_beethoven",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_mahatma_gandhi",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 마하트마 간디"
+                    },
+                    {
+                        "id":  "recipe_immortal_mother_teresa",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_cleopatra",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_mother_teresa",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 마더 테레사"
+                    },
+                    {
+                        "id":  "recipe_immortal_martin_luther_king_jr",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_alexander_the_great",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_freddie_mercury",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_martin_luther_king_jr",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 마틴 루터 킹"
+                    },
+                    {
+                        "id":  "recipe_immortal_nelson_mandela",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_alexander_the_great",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_julius_caesar",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_nelson_mandela",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 넬슨 만델라"
+                    },
+                    {
+                        "id":  "recipe_immortal_florence_nightingale",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_cleopatra",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_florence_nightingale",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 플로렌스 나이팅게일"
+                    },
+                    {
+                        "id":  "recipe_immortal_abraham_lincoln",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_qin_shi_huang",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_julius_caesar",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_abraham_lincoln",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 에이브러햄 링컨"
+                    },
+                    {
+                        "id":  "recipe_immortal_saint_joan_of_arc",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_alexander_the_great",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_ludwig_van_beethoven",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "immortal_saint_joan_of_arc",
+                        "consume_inputs":  true,
+                        "branch_type":  "immortal",
+                        "notes":  "Generated from unit.txt for 성녀 잔 다르크"
+                    },
+                    {
+                        "id":  "recipe_god_jesus_christ",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_wolfgang_amadeus_mozart",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "god_jesus_christ",
+                        "consume_inputs":  true,
+                        "branch_type":  "god",
+                        "notes":  "Generated from unit.txt for 부활한 그리스도"
+                    },
+                    {
+                        "id":  "recipe_god_siddhartha_gautama",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_ludwig_van_beethoven",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_leonardo_da_vinci",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "god_siddhartha_gautama",
+                        "consume_inputs":  true,
+                        "branch_type":  "god",
+                        "notes":  "Generated from unit.txt for 깨달은 부처"
+                    },
+                    {
+                        "id":  "recipe_god_zeus",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_genghis_khan",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_alexander_the_great",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_qin_shi_huang",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "god_zeus",
+                        "consume_inputs":  true,
+                        "branch_type":  "god",
+                        "notes":  "Generated from unit.txt for 제우스"
+                    },
+                    {
+                        "id":  "recipe_god_odin",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_sherlock_holmes",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sun_tzu",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_qin_shi_huang",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "god_odin",
+                        "consume_inputs":  true,
+                        "branch_type":  "god",
+                        "notes":  "Generated from unit.txt for 오딘"
+                    },
+                    {
+                        "id":  "recipe_god_amaterasu",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_wolfgang_amadeus_mozart",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_cleopatra",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "god_amaterasu",
+                        "consume_inputs":  true,
+                        "branch_type":  "god",
+                        "notes":  "Generated from unit.txt for 아마테라스"
+                    },
+                    {
+                        "id":  "recipe_liberator_siddhartha_gautama",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sun_tzu",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_leonardo_da_vinci",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "liberator_siddhartha_gautama",
+                        "consume_inputs":  true,
+                        "branch_type":  "liberator",
+                        "notes":  "Generated from unit.txt for 고타마 싯다르타"
+                    },
+                    {
+                        "id":  "recipe_liberator_laozi",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_sherlock_holmes",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_sun_tzu",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_leonardo_da_vinci",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "liberator_laozi",
+                        "consume_inputs":  true,
+                        "branch_type":  "liberator",
+                        "notes":  "Generated from unit.txt for 도를 전한 노자"
+                    },
+                    {
+                        "id":  "recipe_liberator_moses",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_qin_shi_huang",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "liberator_moses",
+                        "consume_inputs":  true,
+                        "branch_type":  "liberator",
+                        "notes":  "Generated from unit.txt for 모세"
+                    },
+                    {
+                        "id":  "recipe_liberator_martin_luther",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_johann_sebastian_bach",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_isaac_newton",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_william_shakespeare",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "liberator_martin_luther",
+                        "consume_inputs":  true,
+                        "branch_type":  "liberator",
+                        "notes":  "Generated from unit.txt for 마르틴 루터"
+                    },
+                    {
+                        "id":  "recipe_liberator_nelson_mandela",
+                        "inputs":  [
+                                       {
+                                           "unit_id":  "legendary_muhammad_ali",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_julius_caesar",
+                                           "count":  1
+                                       },
+                                       {
+                                           "unit_id":  "legendary_joan_of_arc",
+                                           "count":  1
+                                       }
+                                   ],
+                        "output_unit_id":  "liberator_nelson_mandela",
+                        "consume_inputs":  true,
+                        "branch_type":  "liberator",
+                        "notes":  "Generated from unit.txt for 자유의 만델라"
+                    }
+                ]
+}

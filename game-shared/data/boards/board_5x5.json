@@ -1,0 +1,9 @@
+{
+  "board_id": "board_7x7_standard",
+  "rows": 7,
+  "cols": 7,
+  "path_id": "outer_ring_clockwise",
+  "storage": {
+    "base_slots": 20
+  }
+}

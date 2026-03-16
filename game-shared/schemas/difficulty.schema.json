@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/difficulty.schema.json",
+  "title": "Difficulty Catalog",
+  "type": "object",
+  "required": ["difficulties"],
+  "properties": {
+    "difficulties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "display_name",
+          "max_active_enemies",
+          "enemy_hp_multiplier",
+          "enemy_damage_multiplier",
+          "enemy_spawn_multiplier"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "display_name": { "type": "string" },
+          "max_active_enemies": { "type": "integer", "minimum": 1 },
+          "enemy_hp_multiplier": { "type": "number", "minimum": 0 },
+          "enemy_damage_multiplier": { "type": "number", "minimum": 0 },
+          "enemy_spawn_multiplier": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

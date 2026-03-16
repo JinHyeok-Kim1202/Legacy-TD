@@ -1,0 +1,6 @@
+{
+  "damage_types": [
+    { "id": "physical", "display_name": "Physical" },
+    { "id": "magic", "display_name": "Magic" }
+  ]
+}

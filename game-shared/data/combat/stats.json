@@ -1,0 +1,19 @@
+{
+  "stats": [
+    {
+      "id": "strength",
+      "display_name": "Strength",
+      "effect": "Increases physical damage."
+    },
+    {
+      "id": "agility",
+      "display_name": "Agility",
+      "effect": "Increases attack speed and critical chance."
+    },
+    {
+      "id": "intelligence",
+      "display_name": "Intelligence",
+      "effect": "Increases magic damage."
+    }
+  ]
+}

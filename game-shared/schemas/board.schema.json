@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/board.schema.json",
+  "title": "Board Definition",
+  "type": "object",
+  "required": ["board_id", "rows", "cols", "path_id", "storage"],
+  "properties": {
+    "board_id": { "type": "string" },
+    "rows": { "type": "integer", "const": 5 },
+    "cols": { "type": "integer", "const": 5 },
+    "path_id": { "type": "string" },
+    "storage": {
+      "type": "object",
+      "required": ["base_slots"],
+      "properties": {
+        "base_slots": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

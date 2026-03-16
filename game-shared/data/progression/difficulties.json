@@ -1,0 +1,28 @@
+{
+  "difficulties": [
+    {
+      "id": "easy",
+      "display_name": "Easy",
+      "max_active_enemies": 100,
+      "enemy_hp_multiplier": 1,
+      "enemy_damage_multiplier": 1,
+      "enemy_spawn_multiplier": 1
+    },
+    {
+      "id": "normal",
+      "display_name": "Normal",
+      "max_active_enemies": 75,
+      "enemy_hp_multiplier": 1.15,
+      "enemy_damage_multiplier": 1.1,
+      "enemy_spawn_multiplier": 1.05
+    },
+    {
+      "id": "hard",
+      "display_name": "Hard",
+      "max_active_enemies": 50,
+      "enemy_hp_multiplier": 1.35,
+      "enemy_damage_multiplier": 1.25,
+      "enemy_spawn_multiplier": 1.15
+    }
+  ]
+}

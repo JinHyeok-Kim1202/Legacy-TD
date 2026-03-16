@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/unit.schema.json",
+  "title": "Unit Catalog",
+  "type": "object",
+  "required": ["units"],
+  "properties": {
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "codename",
+          "display_name",
+          "rarity",
+          "placement",
+          "attack",
+          "stats",
+          "scaling",
+          "presentation",
+          "tags"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "codename": { "type": "string" },
+          "display_name": { "type": "string" },
+          "rarity": {
+            "type": "string",
+            "enum": ["common", "rare", "unique", "legendary", "transcendent", "immortal", "god", "liberator"]
+          },
+          "branch_family": { "type": "string" },
+          "placement": {
+            "type": "object",
+            "required": ["board_allowed", "storage_allowed"],
+            "properties": {
+              "board_allowed": { "type": "boolean" },
+              "storage_allowed": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          },
+          "attack": {
+            "type": "object",
+            "required": [
+              "damage_type",
+              "targeting",
+              "range",
+              "attack_speed",
+              "base_damage",
+              "crit_chance",
+              "crit_multiplier"
+            ],
+            "properties": {
+              "damage_type": { "type": "string", "enum": ["physical", "magic"] },
+              "targeting": { "type": "string", "enum": ["first", "last", "strongest", "weakest", "nearest"] },
+              "range": { "type": "number", "minimum": 0 },
+              "attack_speed": { "type": "number", "minimum": 0 },
+              "base_damage": { "type": "number", "minimum": 0 },
+              "crit_chance": { "type": "number", "minimum": 0 },
+              "crit_multiplier": { "type": "number", "minimum": 1 }
+            },
+            "additionalProperties": false
+          },
+          "stats": {
+            "type": "object",
+            "required": ["strength", "agility", "intelligence", "max_hp"],
+            "properties": {
+              "strength": { "type": "number", "minimum": 0 },
+              "agility": { "type": "number", "minimum": 0 },
+              "intelligence": { "type": "number", "minimum": 0 },
+              "max_hp": { "type": "number", "minimum": 1 }
+            },
+            "additionalProperties": false
+          },
+          "scaling": {
+            "type": "object",
+            "required": [
+              "strength_to_physical_damage",
+              "agility_to_attack_speed",
+              "agility_to_crit_chance",
+              "intelligence_to_magic_damage"
+            ],
+            "properties": {
+              "strength_to_physical_damage": { "type": "number" },
+              "agility_to_attack_speed": { "type": "number" },
+              "agility_to_crit_chance": { "type": "number" },
+              "intelligence_to_magic_damage": { "type": "number" }
+            },
+            "additionalProperties": false
+          },
+          "presentation": {
+            "type": "object",
+            "required": ["model_id", "icon_id"],
+            "properties": {
+              "model_id": { "type": "string" },
+              "icon_id": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

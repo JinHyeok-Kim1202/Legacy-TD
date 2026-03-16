@@ -1,0 +1,12 @@
+{
+  "rarities": [
+    { "id": "common", "order": 1, "is_terminal_branch": false },
+    { "id": "rare", "order": 2, "is_terminal_branch": false },
+    { "id": "unique", "order": 3, "is_terminal_branch": false },
+    { "id": "legendary", "order": 4, "is_terminal_branch": false },
+    { "id": "transcendent", "order": 5, "is_terminal_branch": true },
+    { "id": "immortal", "order": 5, "is_terminal_branch": true },
+    { "id": "god", "order": 5, "is_terminal_branch": true },
+    { "id": "liberator", "order": 5, "is_terminal_branch": true }
+  ]
+}

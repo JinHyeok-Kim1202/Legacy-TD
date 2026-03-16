@@ -1,0 +1,88 @@
+{
+  "enemies": [
+    {
+      "id": "enemy_runner",
+      "display_name": "Runner",
+      "type": "normal",
+      "movement": {
+        "path_id": "outer_ring_clockwise",
+        "move_speed": 1.4
+      },
+      "combat": {
+        "max_hp": 120,
+        "armor": 0,
+        "magic_resist": 0.05
+      },
+      "reward": {
+        "gold": 5
+      },
+      "presentation": {
+        "model_id": "enemies/runner"
+      },
+      "tags": ["fast"]
+    },
+    {
+      "id": "enemy_brute",
+      "display_name": "Brute",
+      "type": "normal",
+      "movement": {
+        "path_id": "outer_ring_clockwise",
+        "move_speed": 0.8
+      },
+      "combat": {
+        "max_hp": 280,
+        "armor": 12,
+        "magic_resist": 0.1
+      },
+      "reward": {
+        "gold": 8
+      },
+      "presentation": {
+        "model_id": "enemies/brute"
+      },
+      "tags": ["armored"]
+    },
+    {
+      "id": "enemy_mystic",
+      "display_name": "Mystic",
+      "type": "normal",
+      "movement": {
+        "path_id": "outer_ring_clockwise",
+        "move_speed": 1
+      },
+      "combat": {
+        "max_hp": 180,
+        "armor": 4,
+        "magic_resist": 0.3
+      },
+      "reward": {
+        "gold": 7
+      },
+      "presentation": {
+        "model_id": "enemies/mystic"
+      },
+      "tags": ["magic_resistant"]
+    },
+    {
+      "id": "enemy_swarm",
+      "display_name": "Swarmling",
+      "type": "normal",
+      "movement": {
+        "path_id": "outer_ring_clockwise",
+        "move_speed": 1.8
+      },
+      "combat": {
+        "max_hp": 70,
+        "armor": 0,
+        "magic_resist": 0
+      },
+      "reward": {
+        "gold": 3
+      },
+      "presentation": {
+        "model_id": "enemies/swarmling"
+      },
+      "tags": ["fast", "swarm"]
+    }
+  ]
+}

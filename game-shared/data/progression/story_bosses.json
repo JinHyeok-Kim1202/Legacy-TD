@@ -1,0 +1,214 @@
+{
+    "stages":  [
+                   {
+                       "stage":  1,
+                       "display_name":  "Story Boss I",
+                       "max_hp":  1800,
+                       "armor":  6,
+                       "magic_resist":  0.08,
+                       "reward":  {
+                                      "gold":  60,
+                                      "bonus_common_draws":  2,
+                                      "bonus_rare_draws":  0,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  2,
+                       "display_name":  "Story Boss II",
+                       "max_hp":  2400,
+                       "armor":  8,
+                       "magic_resist":  0.1,
+                       "reward":  {
+                                      "gold":  70,
+                                      "bonus_common_draws":  2,
+                                      "bonus_rare_draws":  0,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  3,
+                       "display_name":  "Story Boss III",
+                       "max_hp":  3200,
+                       "armor":  10,
+                       "magic_resist":  0.12,
+                       "reward":  {
+                                      "gold":  80,
+                                      "bonus_common_draws":  3,
+                                      "bonus_rare_draws":  0,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  4,
+                       "display_name":  "Story Boss IV",
+                       "max_hp":  4200,
+                       "armor":  12,
+                       "magic_resist":  0.14,
+                       "reward":  {
+                                      "gold":  90,
+                                      "bonus_common_draws":  3,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  5,
+                       "display_name":  "Story Boss V",
+                       "max_hp":  5400,
+                       "armor":  14,
+                       "magic_resist":  0.16,
+                       "reward":  {
+                                      "gold":  120,
+                                      "bonus_common_draws":  3,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  6,
+                       "display_name":  "Story Boss VI",
+                       "max_hp":  6800,
+                       "armor":  16,
+                       "magic_resist":  0.18,
+                       "reward":  {
+                                      "gold":  140,
+                                      "bonus_common_draws":  4,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  7,
+                       "display_name":  "Story Boss VII",
+                       "max_hp":  8400,
+                       "armor":  18,
+                       "magic_resist":  0.2,
+                       "reward":  {
+                                      "gold":  160,
+                                      "bonus_common_draws":  4,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  8,
+                       "display_name":  "Story Boss VIII",
+                       "max_hp":  10200,
+                       "armor":  20,
+                       "magic_resist":  0.22,
+                       "reward":  {
+                                      "gold":  190,
+                                      "bonus_common_draws":  4,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  9,
+                       "display_name":  "Story Boss IX",
+                       "max_hp":  12200,
+                       "armor":  24,
+                       "magic_resist":  0.24,
+                       "reward":  {
+                                      "gold":  220,
+                                      "bonus_common_draws":  4,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  10,
+                       "display_name":  "Story Boss X",
+                       "max_hp":  14500,
+                       "armor":  28,
+                       "magic_resist":  0.26,
+                       "reward":  {
+                                      "gold":  260,
+                                      "bonus_common_draws":  5,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  11,
+                       "display_name":  "Story Boss XI",
+                       "max_hp":  17000,
+                       "armor":  30,
+                       "magic_resist":  0.28,
+                       "reward":  {
+                                      "gold":  300,
+                                      "bonus_common_draws":  5,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  12,
+                       "display_name":  "Story Boss XII",
+                       "max_hp":  19800,
+                       "armor":  34,
+                       "magic_resist":  0.3,
+                       "reward":  {
+                                      "gold":  340,
+                                      "bonus_common_draws":  5,
+                                      "bonus_rare_draws":  3,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  13,
+                       "display_name":  "Story Boss XIII",
+                       "max_hp":  22800,
+                       "armor":  38,
+                       "magic_resist":  0.32,
+                       "reward":  {
+                                      "gold":  380,
+                                      "bonus_common_draws":  6,
+                                      "bonus_rare_draws":  3,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  14,
+                       "display_name":  "Story Boss XIV",
+                       "max_hp":  26200,
+                       "armor":  42,
+                       "magic_resist":  0.34,
+                       "reward":  {
+                                      "gold":  420,
+                                      "bonus_common_draws":  6,
+                                      "bonus_rare_draws":  3,
+                                      "bonus_unique_draws":  2,
+                                      "bonus_legendary_draws":  0
+                                  }
+                   },
+                   {
+                       "stage":  15,
+                       "display_name":  "Story Boss XV",
+                       "max_hp":  30000,
+                       "armor":  46,
+                       "magic_resist":  0.36,
+                       "reward":  {
+                                      "gold":  600,
+                                      "bonus_common_draws":  6,
+                                      "bonus_rare_draws":  4,
+                                      "bonus_unique_draws":  2,
+                                      "bonus_legendary_draws":  1
+                                  }
+                   }
+               ]
+}

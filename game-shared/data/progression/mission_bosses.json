@@ -1,0 +1,88 @@
+{
+    "missions":  [
+                     {
+                         "id":  "mission_boss_10",
+                         "display_name":  "Guardian Mission",
+                         "boss_definition_id":  "boss_guardian_round_10",
+                         "unlock_round":  10,
+                         "cooldown_seconds":  300,
+                         "first_clear_reward":  {
+                                                    "gold":  180,
+                                                    "bonus_common_draws":  3,
+                                                    "bonus_rare_draws":  1,
+                                                    "bonus_unique_draws":  0,
+                                                    "bonus_legendary_draws":  0
+                                                },
+                         "repeat_clear_reward":  {
+                                                     "gold":  100,
+                                                     "bonus_common_draws":  1,
+                                                     "bonus_rare_draws":  1,
+                                                     "bonus_unique_draws":  0,
+                                                     "bonus_legendary_draws":  0
+                                                 }
+                     },
+                     {
+                         "id":  "mission_boss_20",
+                         "display_name":  "Emperor Mission",
+                         "boss_definition_id":  "boss_emperor_round_20",
+                         "unlock_round":  20,
+                         "cooldown_seconds":  300,
+                         "first_clear_reward":  {
+                                                    "gold":  260,
+                                                    "bonus_common_draws":  2,
+                                                    "bonus_rare_draws":  2,
+                                                    "bonus_unique_draws":  1,
+                                                    "bonus_legendary_draws":  0
+                                                },
+                         "repeat_clear_reward":  {
+                                                     "gold":  140,
+                                                     "bonus_common_draws":  1,
+                                                     "bonus_rare_draws":  1,
+                                                     "bonus_unique_draws":  1,
+                                                     "bonus_legendary_draws":  0
+                                                 }
+                     },
+                     {
+                         "id":  "mission_boss_30",
+                         "display_name":  "Tempest Mission",
+                         "boss_definition_id":  "boss_tempest_round_30",
+                         "unlock_round":  30,
+                         "cooldown_seconds":  300,
+                         "first_clear_reward":  {
+                                                    "gold":  340,
+                                                    "bonus_common_draws":  2,
+                                                    "bonus_rare_draws":  2,
+                                                    "bonus_unique_draws":  1,
+                                                    "bonus_legendary_draws":  1
+                                                },
+                         "repeat_clear_reward":  {
+                                                     "gold":  180,
+                                                     "bonus_common_draws":  1,
+                                                     "bonus_rare_draws":  1,
+                                                     "bonus_unique_draws":  1,
+                                                     "bonus_legendary_draws":  0
+                                                 }
+                     },
+                     {
+                         "id":  "mission_boss_40",
+                         "display_name":  "Abyss Mission",
+                         "boss_definition_id":  "boss_abyss_round_40",
+                         "unlock_round":  40,
+                         "cooldown_seconds":  300,
+                         "first_clear_reward":  {
+                                                    "gold":  440,
+                                                    "bonus_common_draws":  1,
+                                                    "bonus_rare_draws":  2,
+                                                    "bonus_unique_draws":  2,
+                                                    "bonus_legendary_draws":  1
+                                                },
+                         "repeat_clear_reward":  {
+                                                     "gold":  220,
+                                                     "bonus_common_draws":  1,
+                                                     "bonus_rare_draws":  1,
+                                                     "bonus_unique_draws":  1,
+                                                     "bonus_legendary_draws":  0
+                                                 }
+                     }
+                 ]
+}

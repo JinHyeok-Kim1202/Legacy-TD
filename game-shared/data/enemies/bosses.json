@@ -1,0 +1,159 @@
+{
+    "bosses":  [
+                   {
+                       "id":  "boss_guardian_round_10",
+                       "display_name":  "Guardian of the Ring",
+                       "spawn_round":  10,
+                       "movement":  {
+                                        "path_id":  "outer_ring_clockwise",
+                                        "move_speed":  0.75
+                                    },
+                       "combat":  {
+                                      "max_hp":  5000,
+                                      "armor":  20,
+                                      "magic_resist":  0.25
+                                  },
+                       "abilities":  [
+                                         {
+                                             "id":  "stomp",
+                                             "cooldown":  8,
+                                             "description":  "Briefly reduces nearby unit attack speed."
+                                         }
+                                     ],
+                       "reward":  {
+                                      "gold":  100,
+                                      "bonus_common_draws":  3,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  0,
+                                      "bonus_legendary_draws":  0
+                                  },
+                       "presentation":  {
+                                            "model_id":  "enemies/guardian_boss"
+                                        }
+                   },
+                   {
+                       "id":  "boss_emperor_round_20",
+                       "display_name":  "Emperor of Ash",
+                       "spawn_round":  20,
+                       "movement":  {
+                                        "path_id":  "outer_ring_clockwise",
+                                        "move_speed":  0.9
+                                    },
+                       "combat":  {
+                                      "max_hp":  9200,
+                                      "armor":  36,
+                                      "magic_resist":  0.35
+                                  },
+                       "abilities":  [
+                                         {
+                                             "id":  "ember_wave",
+                                             "cooldown":  7,
+                                             "description":  "Applies periodic burn damage to units on the outer ring."
+                                         }
+                                     ],
+                       "reward":  {
+                                      "gold":  180,
+                                      "bonus_common_draws":  2,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  0
+                                  },
+                       "presentation":  {
+                                            "model_id":  "enemies/emperor_boss"
+                                        }
+                   },
+                   {
+                       "id":  "boss_tempest_round_30",
+                       "display_name":  "Tempest Colossus",
+                       "spawn_round":  30,
+                       "movement":  {
+                                        "path_id":  "outer_ring_clockwise",
+                                        "move_speed":  1
+                                    },
+                       "combat":  {
+                                      "max_hp":  14500,
+                                      "armor":  40,
+                                      "magic_resist":  0.38
+                                  },
+                       "abilities":  [
+                                         {
+                                             "id":  "storm_break",
+                                             "cooldown":  6,
+                                             "description":  "Discharges chain lightning through the outer ring."
+                                         }
+                                     ],
+                       "reward":  {
+                                      "gold":  260,
+                                      "bonus_common_draws":  2,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  1,
+                                      "bonus_legendary_draws":  1
+                                  },
+                       "presentation":  {
+                                            "model_id":  "enemies/tempest_colossus"
+                                        }
+                   },
+                   {
+                       "id":  "boss_abyss_round_40",
+                       "display_name":  "Abyss Sovereign",
+                       "spawn_round":  40,
+                       "movement":  {
+                                        "path_id":  "outer_ring_clockwise",
+                                        "move_speed":  1.05
+                                    },
+                       "combat":  {
+                                      "max_hp":  19800,
+                                      "armor":  48,
+                                      "magic_resist":  0.42
+                                  },
+                       "abilities":  [
+                                         {
+                                             "id":  "void_brand",
+                                             "cooldown":  5,
+                                             "description":  "Marks units and weakens their next attack."
+                                         }
+                                     ],
+                       "reward":  {
+                                      "gold":  360,
+                                      "bonus_common_draws":  1,
+                                      "bonus_rare_draws":  2,
+                                      "bonus_unique_draws":  2,
+                                      "bonus_legendary_draws":  1
+                                  },
+                       "presentation":  {
+                                            "model_id":  "enemies/abyss_sovereign"
+                                        }
+                   },
+                   {
+                       "id":  "boss_eclipse_round_50",
+                       "display_name":  "Eclipse Tyrant",
+                       "spawn_round":  50,
+                       "movement":  {
+                                        "path_id":  "outer_ring_clockwise",
+                                        "move_speed":  1.1
+                                    },
+                       "combat":  {
+                                      "max_hp":  26800,
+                                      "armor":  56,
+                                      "magic_resist":  0.46
+                                  },
+                       "abilities":  [
+                                         {
+                                             "id":  "sunless_roar",
+                                             "cooldown":  5,
+                                             "description":  "Briefly enrages nearby enemies and boosts their speed."
+                                         }
+                                     ],
+                       "reward":  {
+                                      "gold":  500,
+                                      "bonus_common_draws":  1,
+                                      "bonus_rare_draws":  1,
+                                      "bonus_unique_draws":  2,
+                                      "bonus_legendary_draws":  1
+                                  },
+                       "presentation":  {
+                                            "model_id":  "enemies/eclipse_tyrant"
+                                        }
+                   }
+               ]
+}

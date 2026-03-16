@@ -1,0 +1,3817 @@
+{
+    "units":  [
+                  {
+                      "id":  "common_tree",
+                      "codename":  "tree",
+                      "display_name":  "나무",
+                      "rarity":  "common",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  1.8,
+                                     "attack_speed":  1,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.5
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  8,
+                                    "intelligence":  3,
+                                    "max_hp":  110
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/tree",
+                                           "icon_id":  "icons/tree"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_man",
+                      "codename":  "man",
+                      "display_name":  "남자",
+                      "rarity":  "common",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  1.8,
+                                     "attack_speed":  1,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.5
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  8,
+                                    "intelligence":  3,
+                                    "max_hp":  110
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/man",
+                                           "icon_id":  "icons/man"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_elder",
+                      "codename":  "elder",
+                      "display_name":  "노인",
+                      "rarity":  "common",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.4,
+                                     "attack_speed":  0.95,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.03,
+                                     "crit_multiplier":  1.45
+                                 },
+                      "stats":  {
+                                    "strength":  3,
+                                    "agility":  8,
+                                    "intelligence":  11,
+                                    "max_hp":  95
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/elder",
+                                           "icon_id":  "icons/elder"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_stone",
+                      "codename":  "stone",
+                      "display_name":  "돌",
+                      "rarity":  "common",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  1.8,
+                                     "attack_speed":  1,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.5
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  8,
+                                    "intelligence":  3,
+                                    "max_hp":  110
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/stone",
+                                           "icon_id":  "icons/stone"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_fish",
+                      "codename":  "fish",
+                      "display_name":  "물고기",
+                      "rarity":  "common",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  1.8,
+                                     "attack_speed":  1,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.5
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  8,
+                                    "intelligence":  3,
+                                    "max_hp":  110
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/fish",
+                                           "icon_id":  "icons/fish"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_fire",
+                      "codename":  "fire",
+                      "display_name":  "불",
+                      "rarity":  "common",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.4,
+                                     "attack_speed":  0.95,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.03,
+                                     "crit_multiplier":  1.45
+                                 },
+                      "stats":  {
+                                    "strength":  3,
+                                    "agility":  8,
+                                    "intelligence":  11,
+                                    "max_hp":  95
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/fire",
+                                           "icon_id":  "icons/fire"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_bird",
+                      "codename":  "bird",
+                      "display_name":  "새",
+                      "rarity":  "common",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.4,
+                                     "attack_speed":  0.95,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.03,
+                                     "crit_multiplier":  1.45
+                                 },
+                      "stats":  {
+                                    "strength":  3,
+                                    "agility":  8,
+                                    "intelligence":  11,
+                                    "max_hp":  95
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/bird",
+                                           "icon_id":  "icons/bird"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_child",
+                      "codename":  "child",
+                      "display_name":  "아이",
+                      "rarity":  "common",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  1.8,
+                                     "attack_speed":  1,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.5
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  8,
+                                    "intelligence":  3,
+                                    "max_hp":  110
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/child",
+                                           "icon_id":  "icons/child"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_woman",
+                      "codename":  "woman",
+                      "display_name":  "여자",
+                      "rarity":  "common",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.4,
+                                     "attack_speed":  0.95,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.03,
+                                     "crit_multiplier":  1.45
+                                 },
+                      "stats":  {
+                                    "strength":  3,
+                                    "agility":  8,
+                                    "intelligence":  11,
+                                    "max_hp":  95
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/woman",
+                                           "icon_id":  "icons/woman"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "common_book",
+                      "codename":  "book",
+                      "display_name":  "책",
+                      "rarity":  "common",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.4,
+                                     "attack_speed":  0.95,
+                                     "base_damage":  10,
+                                     "crit_chance":  0.03,
+                                     "crit_multiplier":  1.45
+                                 },
+                      "stats":  {
+                                    "strength":  3,
+                                    "agility":  8,
+                                    "intelligence":  11,
+                                    "max_hp":  95
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/book",
+                                           "icon_id":  "icons/book"
+                                       },
+                      "tags":  [
+                                   "커먼",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_nurse",
+                      "codename":  "nurse",
+                      "display_name":  "간호사",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/nurse",
+                                           "icon_id":  "icons/nurse"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_police_officer",
+                      "codename":  "police_officer",
+                      "display_name":  "경찰",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/police_officer",
+                                           "icon_id":  "icons/police_officer"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_soldier",
+                      "codename":  "soldier",
+                      "display_name":  "군인",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/soldier",
+                                           "icon_id":  "icons/soldier"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_male_student",
+                      "codename":  "male_student",
+                      "display_name":  "남학생",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/male_student",
+                                           "icon_id":  "icons/male_student"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_farmer",
+                      "codename":  "farmer",
+                      "display_name":  "농부",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/farmer",
+                                           "icon_id":  "icons/farmer"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_inventor",
+                      "codename":  "inventor",
+                      "display_name":  "발명가",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/inventor",
+                                           "icon_id":  "icons/inventor"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_merchant",
+                      "codename":  "merchant",
+                      "display_name":  "상인",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/merchant",
+                                           "icon_id":  "icons/merchant"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_teacher",
+                      "codename":  "teacher",
+                      "display_name":  "선생님",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/teacher",
+                                           "icon_id":  "icons/teacher"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_fisherman",
+                      "codename":  "fisherman",
+                      "display_name":  "어부",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/fisherman",
+                                           "icon_id":  "icons/fisherman"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_female_student",
+                      "codename":  "female_student",
+                      "display_name":  "여학생",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/female_student",
+                                           "icon_id":  "icons/female_student"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_traveler",
+                      "codename":  "traveler",
+                      "display_name":  "여행가",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/traveler",
+                                           "icon_id":  "icons/traveler"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_chef",
+                      "codename":  "chef",
+                      "display_name":  "요리사",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/chef",
+                                           "icon_id":  "icons/chef"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_musician",
+                      "codename":  "musician",
+                      "display_name":  "음악가",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/musician",
+                                           "icon_id":  "icons/musician"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_doctor",
+                      "codename":  "doctor",
+                      "display_name":  "의사",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/doctor",
+                                           "icon_id":  "icons/doctor"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_writer",
+                      "codename":  "writer",
+                      "display_name":  "작가",
+                      "rarity":  "rare",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  2.6,
+                                     "attack_speed":  1.05,
+                                     "base_damage":  17,
+                                     "crit_chance":  0.04,
+                                     "crit_multiplier":  1.55
+                                 },
+                      "stats":  {
+                                    "strength":  5,
+                                    "agility":  10,
+                                    "intelligence":  18,
+                                    "max_hp":  135
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/writer",
+                                           "icon_id":  "icons/writer"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_office_worker",
+                      "codename":  "office_worker",
+                      "display_name":  "직장인",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/office_worker",
+                                           "icon_id":  "icons/office_worker"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_explorer",
+                      "codename":  "explorer",
+                      "display_name":  "탐험가",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/explorer",
+                                           "icon_id":  "icons/explorer"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "rare_painter",
+                      "codename":  "painter",
+                      "display_name":  "화가",
+                      "rarity":  "rare",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "nearest",
+                                     "range":  2,
+                                     "attack_speed":  1.1,
+                                     "base_damage":  18,
+                                     "crit_chance":  0.05,
+                                     "crit_multiplier":  1.6
+                                 },
+                      "stats":  {
+                                    "strength":  18,
+                                    "agility":  10,
+                                    "intelligence":  5,
+                                    "max_hp":  150
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/painter",
+                                           "icon_id":  "icons/painter"
+                                       },
+                      "tags":  [
+                                   "레어",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_singer",
+                      "codename":  "singer",
+                      "display_name":  "가수",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/singer",
+                                           "icon_id":  "icons/singer"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_gamer",
+                      "codename":  "gamer",
+                      "display_name":  "게이머",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/gamer",
+                                           "icon_id":  "icons/gamer"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_knight",
+                      "codename":  "knight",
+                      "display_name":  "기사",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/knight",
+                                           "icon_id":  "icons/knight"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_ninja",
+                      "codename":  "ninja",
+                      "display_name":  "닌자",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/ninja",
+                                           "icon_id":  "icons/ninja"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_wizard",
+                      "codename":  "wizard",
+                      "display_name":  "마법사",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/wizard",
+                                           "icon_id":  "icons/wizard"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_priest",
+                      "codename":  "priest",
+                      "display_name":  "사제",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/priest",
+                                           "icon_id":  "icons/priest"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_monk",
+                      "codename":  "monk",
+                      "display_name":  "수도승",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/monk",
+                                           "icon_id":  "icons/monk"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_researcher",
+                      "codename":  "researcher",
+                      "display_name":  "연구원",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/researcher",
+                                           "icon_id":  "icons/researcher"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_hero",
+                      "codename":  "hero",
+                      "display_name":  "영웅",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/hero",
+                                           "icon_id":  "icons/hero"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_king",
+                      "codename":  "king",
+                      "display_name":  "왕",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/king",
+                                           "icon_id":  "icons/king"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_athlete",
+                      "codename":  "athlete",
+                      "display_name":  "운동선수",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/athlete",
+                                           "icon_id":  "icons/athlete"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_general",
+                      "codename":  "general",
+                      "display_name":  "장군",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/general",
+                                           "icon_id":  "icons/general"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_strategist",
+                      "codename":  "strategist",
+                      "display_name":  "전략가",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/strategist",
+                                           "icon_id":  "icons/strategist"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_leader",
+                      "codename":  "leader",
+                      "display_name":  "지도자",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/leader",
+                                           "icon_id":  "icons/leader"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_philosopher",
+                      "codename":  "philosopher",
+                      "display_name":  "철학자",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/philosopher",
+                                           "icon_id":  "icons/philosopher"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_detective",
+                      "codename":  "detective",
+                      "display_name":  "탐정",
+                      "rarity":  "unique",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "weakest",
+                                     "range":  2.8,
+                                     "attack_speed":  1.12,
+                                     "base_damage":  26,
+                                     "crit_chance":  0.06,
+                                     "crit_multiplier":  1.7
+                                 },
+                      "stats":  {
+                                    "strength":  8,
+                                    "agility":  15,
+                                    "intelligence":  28,
+                                    "max_hp":  190
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/detective",
+                                           "icon_id":  "icons/detective"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_programmer",
+                      "codename":  "programmer",
+                      "display_name":  "프로그래머",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/programmer",
+                                           "icon_id":  "icons/programmer"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "unique_revolutionary",
+                      "codename":  "revolutionary",
+                      "display_name":  "혁명가",
+                      "rarity":  "unique",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.3,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  28,
+                                     "crit_chance":  0.07,
+                                     "crit_multiplier":  1.75
+                                 },
+                      "stats":  {
+                                    "strength":  26,
+                                    "agility":  16,
+                                    "intelligence":  8,
+                                    "max_hp":  210
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/revolutionary",
+                                           "icon_id":  "icons/revolutionary"
+                                       },
+                      "tags":  [
+                                   "유니크",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_napoleon_bonaparte",
+                      "codename":  "napoleon_bonaparte",
+                      "display_name":  "나폴레옹",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/napoleon_bonaparte",
+                                           "icon_id":  "icons/napoleon_bonaparte"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_nikola_tesla",
+                      "codename":  "nikola_tesla",
+                      "display_name":  "니콜라 테슬라",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/nikola_tesla",
+                                           "icon_id":  "icons/nikola_tesla"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_leonardo_da_vinci",
+                      "codename":  "leonardo_da_vinci",
+                      "display_name":  "레오나르도 다빈치",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/leonardo_da_vinci",
+                                           "icon_id":  "icons/leonardo_da_vinci"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_ludwig_van_beethoven",
+                      "codename":  "ludwig_van_beethoven",
+                      "display_name":  "루트비히 판 베토벤",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/ludwig_van_beethoven",
+                                           "icon_id":  "icons/ludwig_van_beethoven"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_michael_jordan",
+                      "codename":  "michael_jordan",
+                      "display_name":  "마이클 조던",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/michael_jordan",
+                                           "icon_id":  "icons/michael_jordan"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_muhammad_ali",
+                      "codename":  "muhammad_ali",
+                      "display_name":  "무하마드 알리",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/muhammad_ali",
+                                           "icon_id":  "icons/muhammad_ali"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_wolfgang_amadeus_mozart",
+                      "codename":  "wolfgang_amadeus_mozart",
+                      "display_name":  "볼프강 아마데우스 모차르트",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/wolfgang_amadeus_mozart",
+                                           "icon_id":  "icons/wolfgang_amadeus_mozart"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_sherlock_holmes",
+                      "codename":  "sherlock_holmes",
+                      "display_name":  "셜록 홈즈",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/sherlock_holmes",
+                                           "icon_id":  "icons/sherlock_holmes"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_sun_tzu",
+                      "codename":  "sun_tzu",
+                      "display_name":  "손자",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/sun_tzu",
+                                           "icon_id":  "icons/sun_tzu"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_isaac_newton",
+                      "codename":  "isaac_newton",
+                      "display_name":  "아이작 뉴턴",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/isaac_newton",
+                                           "icon_id":  "icons/isaac_newton"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_alexander_the_great",
+                      "codename":  "alexander_the_great",
+                      "display_name":  "알렉산더 대왕",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/alexander_the_great",
+                                           "icon_id":  "icons/alexander_the_great"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_albert_einstein",
+                      "codename":  "albert_einstein",
+                      "display_name":  "알베르트 아인슈타인",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/albert_einstein",
+                                           "icon_id":  "icons/albert_einstein"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_elvis_presley",
+                      "codename":  "elvis_presley",
+                      "display_name":  "엘비스 프레슬리",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/elvis_presley",
+                                           "icon_id":  "icons/elvis_presley"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_johann_sebastian_bach",
+                      "codename":  "johann_sebastian_bach",
+                      "display_name":  "요한 세바스티안 바흐",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/johann_sebastian_bach",
+                                           "icon_id":  "icons/johann_sebastian_bach"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_william_shakespeare",
+                      "codename":  "william_shakespeare",
+                      "display_name":  "윌리엄 셰익스피어",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/william_shakespeare",
+                                           "icon_id":  "icons/william_shakespeare"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_julius_caesar",
+                      "codename":  "julius_caesar",
+                      "display_name":  "율리우스 카이사르",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/julius_caesar",
+                                           "icon_id":  "icons/julius_caesar"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_bruce_lee",
+                      "codename":  "bruce_lee",
+                      "display_name":  "이소룡",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/bruce_lee",
+                                           "icon_id":  "icons/bruce_lee"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_joan_of_arc",
+                      "codename":  "joan_of_arc",
+                      "display_name":  "잔다르크",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/joan_of_arc",
+                                           "icon_id":  "icons/joan_of_arc"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_qin_shi_huang",
+                      "codename":  "qin_shi_huang",
+                      "display_name":  "진시황",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/qin_shi_huang",
+                                           "icon_id":  "icons/qin_shi_huang"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_genghis_khan",
+                      "codename":  "genghis_khan",
+                      "display_name":  "징기스칸",
+                      "rarity":  "legendary",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  2.6,
+                                     "attack_speed":  1.3,
+                                     "base_damage":  42,
+                                     "crit_chance":  0.09,
+                                     "crit_multiplier":  1.9
+                                 },
+                      "stats":  {
+                                    "strength":  36,
+                                    "agility":  20,
+                                    "intelligence":  12,
+                                    "max_hp":  300
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/genghis_khan",
+                                           "icon_id":  "icons/genghis_khan"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_cleopatra",
+                      "codename":  "cleopatra",
+                      "display_name":  "클레오파트라",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/cleopatra",
+                                           "icon_id":  "icons/cleopatra"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_pablo_picasso",
+                      "codename":  "pablo_picasso",
+                      "display_name":  "파블로 피카소",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/pablo_picasso",
+                                           "icon_id":  "icons/pablo_picasso"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "legendary_freddie_mercury",
+                      "codename":  "freddie_mercury",
+                      "display_name":  "프레디 머큐리",
+                      "rarity":  "legendary",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.1,
+                                     "attack_speed":  1.22,
+                                     "base_damage":  40,
+                                     "crit_chance":  0.08,
+                                     "crit_multiplier":  1.85
+                                 },
+                      "stats":  {
+                                    "strength":  10,
+                                    "agility":  18,
+                                    "intelligence":  38,
+                                    "max_hp":  270
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/freddie_mercury",
+                                           "icon_id":  "icons/freddie_mercury"
+                                       },
+                      "tags":  [
+                                   "레전더리",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_confucius",
+                      "codename":  "confucius",
+                      "display_name":  "공자",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/confucius",
+                                           "icon_id":  "icons/confucius"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_laozi",
+                      "codename":  "laozi",
+                      "display_name":  "노자",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/laozi",
+                                           "icon_id":  "icons/laozi"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_milarepa",
+                      "codename":  "milarepa",
+                      "display_name":  "밀라레파",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/milarepa",
+                                           "icon_id":  "icons/milarepa"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_socrates",
+                      "codename":  "socrates",
+                      "display_name":  "소크라테스",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/socrates",
+                                           "icon_id":  "icons/socrates"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_aristotle",
+                      "codename":  "aristotle",
+                      "display_name":  "아리스토텔레스",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/aristotle",
+                                           "icon_id":  "icons/aristotle"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_faker",
+                      "codename":  "faker",
+                      "display_name":  "페이커",
+                      "rarity":  "transcendent",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3,
+                                     "attack_speed":  1.42,
+                                     "base_damage":  64,
+                                     "crit_chance":  0.12,
+                                     "crit_multiplier":  2
+                                 },
+                      "stats":  {
+                                    "strength":  48,
+                                    "agility":  26,
+                                    "intelligence":  16,
+                                    "max_hp":  420
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/faker",
+                                           "icon_id":  "icons/faker"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "transcendent_plato",
+                      "codename":  "plato",
+                      "display_name":  "플라톤",
+                      "rarity":  "transcendent",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.4,
+                                     "attack_speed":  1.34,
+                                     "base_damage":  62,
+                                     "crit_chance":  0.1,
+                                     "crit_multiplier":  1.95
+                                 },
+                      "stats":  {
+                                    "strength":  14,
+                                    "agility":  24,
+                                    "intelligence":  50,
+                                    "max_hp":  390
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/plato",
+                                           "icon_id":  "icons/plato"
+                                       },
+                      "tags":  [
+                                   "초월자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_nelson_mandela",
+                      "codename":  "nelson_mandela",
+                      "display_name":  "넬슨 만델라",
+                      "rarity":  "immortal",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.2,
+                                     "attack_speed":  1.48,
+                                     "base_damage":  70,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  52,
+                                    "agility":  28,
+                                    "intelligence":  16,
+                                    "max_hp":  450
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/nelson_mandela",
+                                           "icon_id":  "icons/nelson_mandela"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_mother_teresa",
+                      "codename":  "mother_teresa",
+                      "display_name":  "마더 테레사",
+                      "rarity":  "immortal",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.5,
+                                     "attack_speed":  1.38,
+                                     "base_damage":  68,
+                                     "crit_chance":  0.11,
+                                     "crit_multiplier":  2
+                                 },
+                      "stats":  {
+                                    "strength":  15,
+                                    "agility":  25,
+                                    "intelligence":  54,
+                                    "max_hp":  420
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/mother_teresa",
+                                           "icon_id":  "icons/mother_teresa"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_martin_luther_king_jr",
+                      "codename":  "martin_luther_king_jr",
+                      "display_name":  "마틴 루터 킹",
+                      "rarity":  "immortal",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.2,
+                                     "attack_speed":  1.48,
+                                     "base_damage":  70,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  52,
+                                    "agility":  28,
+                                    "intelligence":  16,
+                                    "max_hp":  450
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/martin_luther_king_jr",
+                                           "icon_id":  "icons/martin_luther_king_jr"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_mahatma_gandhi",
+                      "codename":  "mahatma_gandhi",
+                      "display_name":  "마하트마 간디",
+                      "rarity":  "immortal",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.2,
+                                     "attack_speed":  1.48,
+                                     "base_damage":  70,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  52,
+                                    "agility":  28,
+                                    "intelligence":  16,
+                                    "max_hp":  450
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/mahatma_gandhi",
+                                           "icon_id":  "icons/mahatma_gandhi"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_saint_joan_of_arc",
+                      "codename":  "saint_joan_of_arc",
+                      "display_name":  "성녀 잔 다르크",
+                      "rarity":  "immortal",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.5,
+                                     "attack_speed":  1.38,
+                                     "base_damage":  68,
+                                     "crit_chance":  0.11,
+                                     "crit_multiplier":  2
+                                 },
+                      "stats":  {
+                                    "strength":  15,
+                                    "agility":  25,
+                                    "intelligence":  54,
+                                    "max_hp":  420
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/saint_joan_of_arc",
+                                           "icon_id":  "icons/saint_joan_of_arc"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_abraham_lincoln",
+                      "codename":  "abraham_lincoln",
+                      "display_name":  "에이브러햄 링컨",
+                      "rarity":  "immortal",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.2,
+                                     "attack_speed":  1.48,
+                                     "base_damage":  70,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  52,
+                                    "agility":  28,
+                                    "intelligence":  16,
+                                    "max_hp":  450
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/abraham_lincoln",
+                                           "icon_id":  "icons/abraham_lincoln"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "immortal_florence_nightingale",
+                      "codename":  "florence_nightingale",
+                      "display_name":  "플로렌스 나이팅게일",
+                      "rarity":  "immortal",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.5,
+                                     "attack_speed":  1.38,
+                                     "base_damage":  68,
+                                     "crit_chance":  0.11,
+                                     "crit_multiplier":  2
+                                 },
+                      "stats":  {
+                                    "strength":  15,
+                                    "agility":  25,
+                                    "intelligence":  54,
+                                    "max_hp":  420
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/florence_nightingale",
+                                           "icon_id":  "icons/florence_nightingale"
+                                       },
+                      "tags":  [
+                                   "불멸자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "god_siddhartha_gautama",
+                      "codename":  "siddhartha_gautama",
+                      "display_name":  "깨달은 부처",
+                      "rarity":  "god",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.5,
+                                     "attack_speed":  1.55,
+                                     "base_damage":  82,
+                                     "crit_chance":  0.16,
+                                     "crit_multiplier":  2.1
+                                 },
+                      "stats":  {
+                                    "strength":  60,
+                                    "agility":  34,
+                                    "intelligence":  18,
+                                    "max_hp":  500
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/siddhartha_gautama",
+                                           "icon_id":  "icons/siddhartha_gautama"
+                                       },
+                      "tags":  [
+                                   "신",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "god_jesus_christ",
+                      "codename":  "jesus_christ",
+                      "display_name":  "부활한 그리스도",
+                      "rarity":  "god",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.7,
+                                     "attack_speed":  1.45,
+                                     "base_damage":  78,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  16,
+                                    "agility":  28,
+                                    "intelligence":  60,
+                                    "max_hp":  470
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/jesus_christ",
+                                           "icon_id":  "icons/jesus_christ"
+                                       },
+                      "tags":  [
+                                   "신",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "god_amaterasu",
+                      "codename":  "amaterasu",
+                      "display_name":  "아마테라스",
+                      "rarity":  "god",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.7,
+                                     "attack_speed":  1.45,
+                                     "base_damage":  78,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  16,
+                                    "agility":  28,
+                                    "intelligence":  60,
+                                    "max_hp":  470
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/amaterasu",
+                                           "icon_id":  "icons/amaterasu"
+                                       },
+                      "tags":  [
+                                   "신",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "god_odin",
+                      "codename":  "odin",
+                      "display_name":  "오딘",
+                      "rarity":  "god",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.5,
+                                     "attack_speed":  1.55,
+                                     "base_damage":  82,
+                                     "crit_chance":  0.16,
+                                     "crit_multiplier":  2.1
+                                 },
+                      "stats":  {
+                                    "strength":  60,
+                                    "agility":  34,
+                                    "intelligence":  18,
+                                    "max_hp":  500
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/odin",
+                                           "icon_id":  "icons/odin"
+                                       },
+                      "tags":  [
+                                   "신",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "god_zeus",
+                      "codename":  "zeus",
+                      "display_name":  "제우스",
+                      "rarity":  "god",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.7,
+                                     "attack_speed":  1.45,
+                                     "base_damage":  78,
+                                     "crit_chance":  0.13,
+                                     "crit_multiplier":  2.05
+                                 },
+                      "stats":  {
+                                    "strength":  16,
+                                    "agility":  28,
+                                    "intelligence":  60,
+                                    "max_hp":  470
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/zeus",
+                                           "icon_id":  "icons/zeus"
+                                       },
+                      "tags":  [
+                                   "신",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "liberator_siddhartha_gautama",
+                      "codename":  "siddhartha_gautama",
+                      "display_name":  "고타마 싯다르타",
+                      "rarity":  "liberator",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.4,
+                                     "attack_speed":  1.52,
+                                     "base_damage":  80,
+                                     "crit_chance":  0.15,
+                                     "crit_multiplier":  2.08
+                                 },
+                      "stats":  {
+                                    "strength":  58,
+                                    "agility":  32,
+                                    "intelligence":  18,
+                                    "max_hp":  490
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/siddhartha_gautama",
+                                           "icon_id":  "icons/siddhartha_gautama"
+                                       },
+                      "tags":  [
+                                   "해방자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "liberator_laozi",
+                      "codename":  "laozi",
+                      "display_name":  "도를 전한 노자",
+                      "rarity":  "liberator",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.4,
+                                     "attack_speed":  1.52,
+                                     "base_damage":  80,
+                                     "crit_chance":  0.15,
+                                     "crit_multiplier":  2.08
+                                 },
+                      "stats":  {
+                                    "strength":  58,
+                                    "agility":  32,
+                                    "intelligence":  18,
+                                    "max_hp":  490
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/laozi",
+                                           "icon_id":  "icons/laozi"
+                                       },
+                      "tags":  [
+                                   "해방자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "liberator_martin_luther",
+                      "codename":  "martin_luther",
+                      "display_name":  "마르틴 루터",
+                      "rarity":  "liberator",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.4,
+                                     "attack_speed":  1.52,
+                                     "base_damage":  80,
+                                     "crit_chance":  0.15,
+                                     "crit_multiplier":  2.08
+                                 },
+                      "stats":  {
+                                    "strength":  58,
+                                    "agility":  32,
+                                    "intelligence":  18,
+                                    "max_hp":  490
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/martin_luther",
+                                           "icon_id":  "icons/martin_luther"
+                                       },
+                      "tags":  [
+                                   "해방자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "liberator_moses",
+                      "codename":  "moses",
+                      "display_name":  "모세",
+                      "rarity":  "liberator",
+                      "branch_family":  "mystic",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "magic",
+                                     "targeting":  "strongest",
+                                     "range":  3.6,
+                                     "attack_speed":  1.42,
+                                     "base_damage":  76,
+                                     "crit_chance":  0.12,
+                                     "crit_multiplier":  2.02
+                                 },
+                      "stats":  {
+                                    "strength":  16,
+                                    "agility":  27,
+                                    "intelligence":  58,
+                                    "max_hp":  460
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/moses",
+                                           "icon_id":  "icons/moses"
+                                       },
+                      "tags":  [
+                                   "해방자",
+                                   "magic",
+                                   "unit_txt"
+                               ]
+                  },
+                  {
+                      "id":  "liberator_nelson_mandela",
+                      "codename":  "nelson_mandela",
+                      "display_name":  "자유의 만델라",
+                      "rarity":  "liberator",
+                      "branch_family":  "martial",
+                      "placement":  {
+                                        "board_allowed":  true,
+                                        "storage_allowed":  true
+                                    },
+                      "attack":  {
+                                     "damage_type":  "physical",
+                                     "targeting":  "first",
+                                     "range":  3.4,
+                                     "attack_speed":  1.52,
+                                     "base_damage":  80,
+                                     "crit_chance":  0.15,
+                                     "crit_multiplier":  2.08
+                                 },
+                      "stats":  {
+                                    "strength":  58,
+                                    "agility":  32,
+                                    "intelligence":  18,
+                                    "max_hp":  490
+                                },
+                      "scaling":  {
+                                      "strength_to_physical_damage":  1,
+                                      "agility_to_attack_speed":  0.02,
+                                      "agility_to_crit_chance":  0.003,
+                                      "intelligence_to_magic_damage":  1
+                                  },
+                      "presentation":  {
+                                           "model_id":  "units/nelson_mandela",
+                                           "icon_id":  "icons/nelson_mandela"
+                                       },
+                      "tags":  [
+                                   "해방자",
+                                   "physical",
+                                   "unit_txt"
+                               ]
+                  }
+              ]
+}

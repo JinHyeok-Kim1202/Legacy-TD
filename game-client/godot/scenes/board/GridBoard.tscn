@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://legacytdboard"]
+
+[ext_resource type="Script" path="res://scripts/board/grid_board.gd" id="1_board"]
+
+[node name="GridBoard" type="Node3D"]
+script = ExtResource("1_board")

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legacy-td/recipe.schema.json",
+  "title": "Recipe Catalog",
+  "type": "object",
+  "required": ["recipes"],
+  "properties": {
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "inputs", "output_unit_id", "consume_inputs", "branch_type"],
+        "properties": {
+          "id": { "type": "string" },
+          "inputs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["unit_id", "count"],
+              "properties": {
+                "unit_id": { "type": "string" },
+                "count": { "type": "integer", "minimum": 1 }
+              },
+              "additionalProperties": false
+            }
+          },
+          "output_unit_id": { "type": "string" },
+          "consume_inputs": { "type": "boolean" },
+          "branch_type": { "type": "string", "enum": ["standard", "transcendent", "immortal", "god", "liberator"] },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
